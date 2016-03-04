@@ -1,0 +1,162 @@
+/* 
+    Document   : vip
+    Created on : May 11, 2012, 7:58:25 AM
+    Author     : sami
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+h1{
+    color: #005DA4;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0px;
+    padding-top:10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid;
+    border-style: dotted;
+}
+#asideMarketing{
+    width:180px;
+    height:270px;
+    background-color: #DFDFDF;
+    color: #000000;
+    float:left;
+    border-radius:8px;
+    margin:65px 30px 21px 0px;
+    -moz-border-radius:8px; 
+}
+#asideMarketing ul li{
+    margin-top:17px;
+}
+#asideMarketing ul li a{
+    color:black;
+    font-size: 12px;
+    margin-left:23px;
+    font-weight: bold;
+    
+}
+#asideMarketing ul li a:hover{
+    color: #005DA4;
+}
+
+ h4{
+    color: #0181E2;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top:10px;
+}
+ p{
+    padding:5px;
+}
+.center{
+    text-align: center;
+    font-size:13px;
+    color: #000000;
+}
+#Object1
+{
+    
+}
+#vipCardImg{
+    float:left;
+}
+
+#mainMarketing{
+    padding-bottom:30px;
+   
+}
+.mainWeb {
+    float: left;
+    width: 440px;
+}
+.webLeftimg{
+    padding-bottom: 60px;
+       
+}
+.bottomWeb{
+    padding-top: 10px;
+    border-top: 1px solid;
+    border-style: dotted;
+    margin-left:209px;
+}
+#vipimg{
+   
+    width:545px;
+}
+
+.bold{
+    font-size:11px;
+}
+
+.webTopImg img{
+    padding-left:30px;
+}
+#lobbyRow2{
+    float:right;
+    margin-top: -280px;
+    position: relative;
+    left: -50px;
+}
+
+#lobbyRow1{
+    padding-bottom: 21px;
+    padding-top:21px;
+   
+}
+#leftweb {
+    padding-bottom:93px;
+}
+.commericals {
+    background-color: #CCCCCC;
+    overflow: hidden;
+    padding: 10px;
+    width: 700px;
+    margin-left:209px;
+}
+.commericals ul li{
+    display: inline;
+}
+.commericals p {
+    color: #005DA4;
+    font-size: 14px;
+}
+#pleft{
+    margin-left: 209px;
+    clear:both;
+
+}
+#pleft b{
+    font-weight: bold;
+}
+.aside2Marketing{
+    padding-bottom:60px;
+}
+#img1{
+    margin-left:656px;
+}
+.webLeftimg a{
+    text-decoration: underline;
+    color:#005DA4;
+
+}
+#pleft a{
+    text-decoration: underline;
+    color:#005DA4;
+
+}
+.bottomWeb1 img{
+    width:220px;
+    height:275px;
+}
+.mainMarketing1 img{
+    width:270px;
+    height:180px;
+}

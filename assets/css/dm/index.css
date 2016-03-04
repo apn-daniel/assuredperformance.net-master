@@ -1,0 +1,42 @@
+#confirm-box {
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    background: #EEEEEE;
+    border: 1px solid #CCCCCC;
+}
+#content-box {
+    padding-top: 25px;padding-bottom: 25px;
+}
+
+#footer {
+    margin-top:15px;
+}
+
+.doc {
+    text-align: justify;padding-left:60px;padding-right: 60px;
+}
+
+.doc h2 {
+    margin-top:35px;margin-bottom: 35px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+ul.header {
+    padding:0px;
+}
+
+ul.nostyle {
+    list-style: none;
+}
+
+#logo {
+    margin-top: 40px;
+}
+
+#content-box h3 {
+    margin-top:20px;
+    margin-bottom:20px;
+}

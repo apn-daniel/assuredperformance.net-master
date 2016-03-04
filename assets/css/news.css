@@ -1,0 +1,164 @@
+/* 
+    Document   : write.css
+    Created on : Apr 27, 2012, 8:27:10 AM
+    Author     : sami
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+#news_header{
+    margin-top: 30px;
+}
+#news{
+    width: 1200px;
+    display: inline-block;
+    margin-top: -60px;
+    background: url(../images/news_bk.png) no-repeat right bottom;
+}
+.leftcol{
+    display: inline-block;
+    width: 970px;
+    margin-right: 10px;
+    margin-left: 0;
+    background: url(../images/divider.png) repeat-y right top;
+}
+.ritecol{
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+}
+.new_heading{
+    color: #333;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 10px 0 10px 0;
+}
+#news_main{
+    text-wrap: normal;
+}
+table tr td{
+    vertical-align: top;
+    text-align: left;
+}
+#main_news{
+    background: url(../images/newsbx_lg.png) no-repeat;
+    width: 950px;
+    height: 145px;
+}
+.imgleft{
+    padding: 15px 20px 10px 15px;
+}
+.imgleft img{
+    border: 1px solid #999;
+}
+.infotext{
+    padding: 0 20px 10px 20px;
+}
+.date{
+    font-style: italic;
+    float: right;
+    margin: 20px 10px 0 0;    
+}
+.date2{
+    font-style: italic;
+    margin: 20px 10px 10px 0;    
+}
+.ritecol2{
+    width: 370px;
+    margin-right: 30px;
+}
+.ritecol2 a{
+    color:#333;
+}
+.ritecol2 a:hover{
+    color:#005da4;
+}
+table tr h2{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 0 10px 0;
+}
+table tr h3 a{
+    font-size: 13px;
+    font-weight: bold;
+    padding: 0 0 10px 0;
+    color: #005da4;
+}
+.divider{
+    margin-top: 0;
+    padding: 0 10px 0 10px;
+    background: url(../images/divider.png) repeat-y;
+}
+#news_latest{
+    background: url(../images/newsbx_lg.png) no-repeat;
+    width: 950px;
+    height: 145px;
+    padding-right: 20px;
+}
+.year{
+    margin-bottom: 20px;
+}
+#news_nav li{
+    padding:10px;
+}
+#news_nav li a{
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding:5px 0 5px 0;
+}
+#news_nav li a:hover{
+    color: #005da4;
+    font-size: 16px;
+}
+#news_nav li a:selected{
+    color: #005da4;
+    font-size: 18px;
+}
+
+
+
+
+
+/*#newspaper{
+    position:relative;
+    top:40px;
+    left:40px;
+}
+#news{
+    width: 950px;
+    margin-top:30px;
+    margin-left: 120px;
+}
+.articles{
+    margin-top:15px;
+}
+.articles td{
+    width:200px;
+    padding-right:10px;
+    padding-bottom:20px;
+}
+.articles td a{
+    text-decoration:none;
+    color:#005da4;
+    font-size:14px;
+    display:block;
+    margin-top:2px;
+}
+.articles td a:hover{
+    color:#ccc;
+}
+.articles td img{
+    display:block;
+    border:1px solid #ccc;
+    width:50%;
+}
+.articles td p{
+    display:block;
+    color:#CCC;
+    font-style:italic;
+    margin-top:10px;
+}*/

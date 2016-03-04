@@ -1,0 +1,50 @@
+/* 
+    Document   : write.css
+    Created on : Apr 27, 2012, 8:27:10 AM
+    Author     : sami
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+#newspaper{
+    position:relative;
+    top:40px;
+    left:40px;
+}
+#news{
+    width: 950px;
+    margin-top:30px;
+    margin-left: 120px;
+}
+.articles{
+    margin-top:15px;
+}
+.articles td{
+    width:200px;
+    padding-right:10px;
+    padding-bottom:20px;
+}
+.articles td a{
+    text-decoration:none;
+    color:#005da4;
+    font-size:14px;
+    display:block;
+    margin-top:2px;
+}
+.articles td a:hover{
+    color:#ccc;
+}
+.articles td img{
+    display:block;
+    border:1px solid #ccc;
+    width:50%;
+}
+.articles td p{
+    display:block;
+    color:#CCC;
+    font-style:italic;
+    margin-top:10px;
+}

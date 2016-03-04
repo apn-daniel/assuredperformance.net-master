@@ -1,0 +1,98 @@
+/* 
+    Document   : consumer
+    Created on : Apr 30, 2012, 12:06:04 PM
+    Author     : sami
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+#sign{
+    position:relative;
+    right:-31px;
+    top:35px;
+}
+#cont{
+    clear:left;
+    width:670px;
+    color:white;
+    font-size:13px;
+    margin-left: 137px;
+}
+#cont p{
+    margin-bottom:30px;
+}
+#pcont{
+    font-size: 13px;
+    margin:30px 70px 0 0px;
+}
+#hc{
+    font-size: 14px;
+    display:block;
+    font-weight: bold;
+    margin-bottom: 6px;
+    margin-top:10px;
+}
+#rpcontents{ 
+    font-size: 13px;
+    margin:30px 70px 0 0px;
+    clear:right;
+}
+#lpimg{
+    float:left;
+    clear:right;
+    padding-right: 20px;
+}
+#div4{
+    clear:right;
+    height:255px;
+}
+#div3{
+    clear:left;
+    margin-right:70px;
+}
+#lpcontents{
+    clear:left;
+    font-size: 13px;
+    padding-top:10px;
+    
+}
+#rpimg{
+    float:right;
+    clear:left;
+}
+#div2{
+    clear:right;
+    height:255px;
+}
+#div1{
+    clear:left;
+    margin:0px 70px 0 0px;
+}
+#div0{
+    height:250px;
+    }
+#more{
+    background:url(../images/MoreInfoButton.png);
+    width:138px;
+    height:44px;
+    font-size: 16px;
+    font-weight:bold;
+    padding:12px 33px;;
+    text-align: center;
+    text-decoration: none;
+    color:black;
+}
+#Certifying{
+    background:url(../images/button1.png);
+    font-size: 16px;
+    font-weight:bold;
+    padding:12px 33px;;
+    text-align: center;
+    text-decoration: none;
+    color:black;
+    margin-top:10px;   
+}

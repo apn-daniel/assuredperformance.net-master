@@ -1,0 +1,33 @@
+/* 
+    Document   : write.css
+    Created on : Apr 27, 2012, 8:27:10 AM
+    Author     : sami
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+ul.disc{
+    margin-left:14px;
+}
+ul.disc li{
+    list-style-type:disc;
+    font-size:14px;
+}
+#logos{
+    margin-top:30px;
+    padding-bottom:30px;
+}
+#chaseLogo{
+    
+    position:relative;
+    top:-7px;
+    margin-right:650px;
+}
+.grey{
+    color:#CCC;
+    padding-bottom:20px;
+}
+

@@ -1,0 +1,94 @@
+/* Buttons
+___________________________________________________________________________*/
+.navbar .icon-bar {
+	background: $oj;
+	width: 30px;
+	height: 5px;
+}
+.navbar-toggle {
+    padding: 10px 0 10px 10px;
+    margin: 0;
+    border: none;
+}
+
+.hero-btn-wrapper {
+
+
+	text-align: center;
+	margin-top: 3em;
+
+	@media(max-width: 414px){
+		margin-top: 4em;
+	}
+}
+.btn-conf {
+	min-width: 330px;
+	display: inline-block;
+	color: white;
+	font-size: 1em;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 1em 1.5em;
+	margin-right: 2em;
+	border: 1px solid $btnOJ;
+	cursor: pointer;
+	box-shadow: 0 3px 6px rgba(0,0,0,.2), 0 3px 6px rgba(0,0,0,.6);
+	&:hover,
+	&:visited,
+	&:focus {
+		color: white;
+		text-decoration: none;
+	}
+	@media(max-width:414px){
+		min-width: 100%;
+		font-size: 1em;
+	}
+	@media(max-width: 767px){
+		width: 100%;
+		display:block;
+		margin-bottom: 1em;
+	}
+	@media(min-width:768px) and (max-width: 800px){
+		margin-right: 1em;
+	}
+}
+.btn-to-top-container {
+    width: 100%;
+    height: 0;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    a {
+    	color: white;
+    	&:hover,
+		&:focus {
+			outline: none;
+		}
+    }
+}
+.btn-to-top {
+	background-color: #EA832E;
+	width: 70px;
+	height: 70px;
+	padding: 0;
+	border: 1px solid darken(#EA832E,10%);
+	border-radius: 50%;
+	box-shadow: $shadow2;
+	position: absolute;
+	bottom: 1em;
+	right: .5em;
+	cursor: pointer;
+	a {
+		color: white;
+		text-decoration: none;
+	}
+	p {
+		font-size: 1em;
+		margin: 0;
+	}
+	@media(min-width:1200px){
+		position: fixed;
+		right: 50%;
+		margin-right: -600px;
+	}
+}

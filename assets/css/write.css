@@ -1,0 +1,150 @@
+/* 
+    Document   : write.css
+    Created on : Apr 27, 2012, 8:27:10 AM
+    Author     : sami
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+#moneypile
+{
+    position:relative;
+    right:20px;
+    
+}
+#wbenefits
+{
+    width:1200px;
+    height:879px;
+    background-color:#08214b;
+    margin:0px auto;
+}
+
+#snum{
+    font-size: 25px;
+    float:left;
+    font-weight: bold;
+    padding:0 0 0 44px;
+}
+#slet
+{
+    font-weight: bold;
+    clear:both;
+}
+
+#rebates h2 {
+    color: black;
+    font-size: 19px;
+    font-weight: bold;
+    padding-left: 18px;
+    padding-top: 18px;
+    padding-bottom: 10px;
+    font-family:'Times New Roman', Times, serif;
+}
+#rebates p {
+    font-size: 13px;
+    margin-bottom: 17px;
+    padding-left: 47px;
+    padding-right: 20px;
+}
+
+#note{
+    
+    width:240px;
+    margin-left:32px;
+    padding-bottom:20px;
+    font-style:italic;
+  
+}
+#note .bold{
+    font-style:normal;
+}
+.benefits{
+    float:left;
+    margin-top: 44px;
+}
+.benefits h2{   
+    font-size: 19px;
+    font-weight: bold;
+    padding-bottom:17px;
+}
+.benefits.left h2{
+   color: #4fa3df;   
+   margin-left:-24px;
+}
+.benefits.right h2{
+   color: #000;    
+}
+.benefits img{
+    float:right;
+}
+.benefits.left{
+    width:464px;
+}
+.benefits p{
+   font-size: 13px;
+   margin-bottom: 17px;
+}
+.benefits.right{
+    width:419px;
+    float:right;
+    background-color: #dfdfdf;
+    color:#000;
+    padding:0px 10px 10px 10px;
+    margin-bottom:30px;
+
+}
+.benefits.right ol{
+    width:370px;
+    margin-left:54px;
+}
+.benefits ol li{
+    list-style-type:decimal !important;
+    margin-bottom: 17px;
+}
+.benefits.left ol li{
+    font-size:18px;
+}
+.benefits.right ol li{
+    color: #005DA4;  
+    font-size:21px;
+    font-weight:bold;
+}
+.benefits.right ol li p{
+    color:#000;
+    font-weight:normal;
+
+}
+#referralBox {
+	background-color:#dfdfdf;
+	padding:10px;
+	width: auto;
+}
+#referralBox a {
+	text-decoration:underline;
+}
+#referralBox table td {
+	border:0px;
+	border-collapse:collapse;
+	padding-top:20px;
+	padding-right:10px;
+}
+
+ul.errors {
+	padding:10px;
+	margin-bottom:10px;
+	border:solid 1px red;
+	background-color:lightPink;
+	color:red;
+}
+ul.success {
+	padding:10px;
+	margin-bottom:10px;
+	border:solid 1px darkGreen;
+	background-color:lightGreen;
+	color:darkGreen;
+}

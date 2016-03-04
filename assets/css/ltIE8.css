@@ -1,0 +1,9 @@
+#nav li{
+    min-width:110px !important;
+}
+#nav a{
+    min-width:100px !important;
+}
+#header-wrapper {
+	width:1035px !important;
+}

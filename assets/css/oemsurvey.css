@@ -1,0 +1,108 @@
+.gutter {
+	padding:10px;
+}       
+
+.nomarginall {
+	margin:0px;
+}
+#container {
+	background:url("../images/header-background.png") no-repeat  #E7E7E7 !important;
+	min-height:600px;
+	padding-bottom:100px;
+}    
+#brand-logo {
+	text-align:right;
+}    
+
+#wrapper {
+	margin-top:50px;
+}    
+       
+#main-information {
+	-webkit-box-shadow: 4px 4px 5px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    4px 4px 5px rgba(50, 50, 50, 0.75);
+	box-shadow:         4px 4px 5px rgba(50, 50, 50, 0.75);
+	margin-top:25px;
+}
+
+#header-info {
+	background:url("../images/bg-black.png");
+	height:40px;
+}        
+
+#header-info .gutter h4 {
+	color:red;font-style:italic;font-weight:bold;
+}
+
+#header-description {
+	background:white;                            
+	padding-top:40px;font-size:135%;
+}        
+
+#header-description p {
+	margin-bottom:20px;
+}      
+
+#brand-info {
+	background:url("../images/bg-blue.png");
+	height:35px;
+}                   
+#brand-info .gutter h3 {
+	line-height:15px;
+	color:white;font-weight:bold;
+}
+   
+#oem-vendor {
+	background:white;   
+	padding-bottom:30px;
+}     
+
+#accordion input, #accordion select {
+	border-radius:0px;
+}
+            
+.invisible {
+	visibility:hidden;
+}
+
+#copyright { margin-top: 10px; }
+        
+.accordion-group {
+	background:url("../images/bg-grey.png") repeat-x;
+	border-radius:0px;
+	border-color: #CCC;
+}
+
+.accordion-toggle dl {
+	margin:0px;
+}
+
+.accordion-toggle dl dt img {
+	float:left;
+}
+
+.accordion-toggle {
+	color:black; 
+	font-weight:bold;
+}     
+
+.clear {clear:both;}
+
+.accordion-toggle:hover, .accordion-toggle:focus {
+  text-decoration:none;
+color:black;   
+}
+.accordion-toggle dl dd {
+	margin-left:60px;
+}
+       
+#submitBtn {
+	border-radius:0px;
+	font-size:130%;
+	font-weight:bold;
+	padding:6px 25px;
+}
+
+.red {color:red;}
+.center {text-align:center;}
+.align-right {text-align:right;}

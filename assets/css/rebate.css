@@ -1,0 +1,120 @@
+/* 
+    Document   : write.css
+    Created on : Apr 27, 2012, 8:27:10 AM
+    Author     : sami
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+#handshake{
+    position:relative;
+    top:65px;
+}
+
+/*table td div{
+    height:350px;
+    width:300px;
+    position:relative;
+}
+table td ul{
+    width:250px;
+    margin-left: 15px;
+}*/
+#rebate{
+    margin-top: -8px;
+    background: url(../images/rebate_bk.png) no-repeat center bottom;
+}
+#rebate_header{
+    margin-top: 30px;
+}
+table tr td{
+    vertical-align: top;
+    text-align: left;
+    background: url(../images/program_bx.png) no-repeat;
+    margin-top: 20px;
+    width: 570px;
+    height: 200px;
+}
+.left{
+    padding-right: 50px;
+}
+.bx{
+    background: url(../images/program_bx.png) no-repeat;
+    padding: 20px;
+    margin-top: 20px;
+    width: 570px;
+    height: 140px;
+}
+.imgleft{
+    padding: 15px 20px 10px 15px;
+    width: 190px;
+    display: inline-block;
+}
+
+.ritecol{
+    width: 370px;
+    margin-right: 30px;
+}
+.ritecol a{
+    color:#333;
+}
+.ritecol a:hover{
+    color:#005da4;
+}
+table tr h2{
+    font-size: 28px;
+    font-family:'abbeyroad';
+    color: #005da4;
+    font-weight: bold;
+    padding: 20px 0 0 0;
+}
+.program_bx{
+    display: inline-block;
+    width: 330px;
+}
+
+.bullet{
+    margin: 0 auto;
+    padding: 10px 20px 10px 0;
+    /*width: 530px;
+    list-style: inside;
+*/
+}
+table td ul li{
+    list-style-type: disc;
+    font-size:13px;
+}
+
+table .bold{
+    margin-bottom:15px;
+    font-size:16px;
+    display:block;
+    color: #005da4;
+}
+.logo{
+    height:125px;
+}
+#write{
+    background:url(../images/100write.png) no-repeat 0px center;
+}
+#radiator{
+    background:url(../images/radiator.png) no-repeat 20px center;
+}
+#officedepot{
+    background:url(../images/officedepot.png) no-repeat 0px center;
+}
+#alldata{
+    background:url(../images/alldata.png) no-repeat 0px center;
+}
+#enterprise{
+    background:url(../images/enterprise.png) no-repeat 0px center;
+}
+#kent{
+    background:url(../images/kent.png) no-repeat 0px center;
+}
+#radPerf{
+    background:url(../images/radPerf.png) no-repeat 50px center;
+}

@@ -1,0 +1,129 @@
+/* 
+    Document   : officeDepot
+    Created on : May 16, 2012, 3:07:03 PM
+    Author     : sami
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+html {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+body {
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #CCCCCC;
+    font-family: Arial,Helvetica,sans-serif;
+    margin: 0;
+}
+#wrapper {
+    margin: 10px auto 0;
+    width: 820px;
+}
+#top_left {
+    background: url("../images/office_depot_logo_top.jpg") no-repeat scroll 0 0 transparent;
+    float: left;
+    height: 74px;
+    width: 543px;
+}
+#top_right {
+    background: url("../images/####.jpg") no-repeat scroll 0 0 transparent;
+    float: left;
+    height: 74px;
+    width: 277px;
+}
+#header_left {
+    background: url("../images/header_left_001.jpg") no-repeat scroll 0 0 transparent;
+    float: left;
+    height: 146px;
+    width: 543px;
+}
+#header_right {
+    background: url("../images/header_right_001.jpg") no-repeat scroll 0 0 transparent;
+    float: left;
+    height: 146px;
+    width: 277px;
+}
+#content {
+    background: url("../images/bg_content.jpg") repeat-y scroll 0 0 transparent;
+    float: left;
+    width: 820px;
+}
+.content_left {
+    float: left;
+    padding: 5px 5px 5px 20px;
+    width: 518px;
+}
+.content_right {
+    float: left;
+    padding: 5px 13px 5px 10px;
+    width: 254px;
+}
+#footer {
+    background: url("../images/bg_footer.jpg") no-repeat scroll 0 0 transparent;
+    clear: both;
+    float: left;
+    height: 55px;
+    width: 820px;
+}
+img {
+    border-style: none;
+}
+h1 {
+    color: #FF0000;
+    font-family: Garamond,Georgia,Times,serif;
+    font-size: 24px;
+    text-align: center;
+}
+h2 {
+    color: #CCCCCC;
+    font-size: 18px;
+    text-align: center;
+}
+p.center_lg {
+    color: #CCCCCC;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+ul.listing_left {
+    float: left;
+    line-height: 30px;
+    list-style-image: url("../images/bullet.gif");
+    padding-left: 15px;
+    text-indent: 0;
+    width: 70px;
+}
+ul.listing_right {
+    float: left;
+    line-height: 30px;
+    list-style-image: url("../images/bullet.gif");
+    padding-left: 15px;
+    text-indent: 0;
+    width: 120px;
+}
+.clearall {
+    clear: both;
+}
+.right_content_split_left {
+    float: left;
+    line-height: 30px;
+    width: 100px;
+}
+.right_content_split_right {
+    float: left;
+    line-height: 30px;
+    width: 135px;
+}
+.center {
+    text-align: center;
+}
+input.sm {
+    font-size: 10px;
+    height: 12px;
+    padding: 0;
+}

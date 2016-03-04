@@ -1,0 +1,22 @@
+$btnOJ: #af570b;
+$lightblue: #0077FF;
+$apnblue: #004da5;
+$black: rgba(0,0,0,0.87);
+$dkgray: rgba(0,0,0,0.54);
+$oj: #f49c50;
+
+$shadow2:  0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
+.grad-oj {
+    background: #f49c50;
+    background: -webkit-gradient(linear, left top, left bottom, from(#f49c50), to(#f2892e));
+    background: linear-gradient(180deg, #f49c50, #f2892e);
+    &:hover {
+		background-color: #f9cda6;
+	    background: -webkit-gradient(linear, left top, left bottom, from(#f9cda6), to(#f2892e));
+	    background: linear-gradient(180deg, #f9cda6, #f2892e);
+    }
+}
+.oj {
+	color: $oj;
+}

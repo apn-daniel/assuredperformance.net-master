@@ -1,0 +1,79 @@
+/* 
+    Document   : enroll
+    Created on : May 22, 2012, 8:51:34 AM
+    Author     : sami
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+#apply form{
+    padding-top:20px;
+}
+
+.enroll{
+    width:700px;
+    margin:0 auto;
+    background-color: #000000;
+    color:#ffffff;
+}
+.enroll h1{    
+    font-size:16px;
+    margin:20px 25px; 
+    
+}
+ td{
+    font-weight:bold;
+    font-size:12px;
+    margin-left:10px;
+    padding:7px 14px;
+}
+.pclear{
+    font-weight:normal;
+    margin:10px 13px 0px 13px;
+    font-size:12px;
+}
+.firsttable{
+    margin:10px auto 0px;
+}
+.secondtable{
+    width:650px;
+    margin:10px auto 10px auto;
+    border-collapse:collapse;
+    font-size:11px;
+    background:#DDDDDD;
+    color:#000;
+}
+#annual{
+    font-weight:normal;
+    padding:7px 14px;
+    width:338px;
+}
+.title{
+    background-color: #D3E0FF;
+   
+    
+    
+}
+.grey {
+    background: none repeat scroll 0 0 #E5E5E5;
+    border-bottom: 1px solid #C9C9C9;
+    border-top: 1px solid #C9C9C9;
+}
+.title td {
+    border-bottom: 1px solid #666666;
+    border-top: 1px solid #666666;
+}
+
+.center input{
+    width:110px;
+}
+.center{
+    text-align: center;
+}
+#DRPName{
+    margin-top:10px;
+    display:none;
+}

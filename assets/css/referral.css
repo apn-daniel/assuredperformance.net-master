@@ -1,0 +1,26 @@
+/* 
+    Document   : referral
+    Created on : May 4, 2012, 11:21:56 AM
+    Author     : sami
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+table td{
+    padding:10px;
+    font-size: 14px;
+    color:white;
+    clear:both;
+}
+#table{
+    clear:both;
+    margin:10px 0px 0px 126px; 
+}
+.content.bigContent{
+    margin:0px auto;
+    position:inherit !important;
+}
